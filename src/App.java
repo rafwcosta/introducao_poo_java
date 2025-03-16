@@ -1,3 +1,5 @@
+// Programa sem a utilização de orientação a objetos
+
 import java.util.Locale;
 import java.util.Scanner;
 
