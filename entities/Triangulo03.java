@@ -1,6 +1,6 @@
 package entities;
 
-// a, b, c = representam os lados dos triângulos
+// a, b, c representam os lados do triângulo
 public class Triangulo03 {
     public double a;
     public double b;
