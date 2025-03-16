@@ -1,4 +1,4 @@
-// Programa sem a utilização de orientação a objetos
+// Programa com a utilização de orientação a objetos
 // Criando uma classe com três atributos para representar melhor o triângulo
 
 import java.util.Locale;
