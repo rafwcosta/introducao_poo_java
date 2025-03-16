@@ -12,8 +12,8 @@ public class AppAdicaoDeClasse {
 
         // Criando variáveis X e Y, do tipo "Triangulo"
         Triangulo x, y;
-        x = new Triangulo(); // Para que possa usar/criar o objeto, precisa-se instanciar, usando o comando "new"
-        y = new Triangulo(); // Para que possa usar/criar o objeto, precisa-se instanciar, usando o comando "new"
+        x = new Triangulo(); // Para que possa usar o objeto, precisa-se instanciar/criar, usando o comando "new"
+        y = new Triangulo(); // Para que possa usar o objeto, precisa-se instanciar/criar, usando o comando "new"
 
         // Para ler o número inteiro e guardar nos objetos x e y, basta coloca um "." após o x ou y
         System.out.println("Entre com os valores de X: ");
