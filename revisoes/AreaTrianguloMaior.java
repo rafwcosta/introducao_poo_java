@@ -10,7 +10,7 @@ public class AreaTrianguloMaior {
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
 
-        // Criação das variáveis X e Y do tipo Triangulo
+        // Criação das variáveis X e Y do tipo Triangulo (objeto)
         Triangulo02 x, y;
         x = new Triangulo02();
         y = new Triangulo02();
