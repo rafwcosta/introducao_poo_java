@@ -14,10 +14,23 @@ public class App {
         xC = sc.nextDouble();
         System.out.println("Entre com os valores de Y: ");
         yA = sc.nextDouble();
-        yB = sc.nextInt();
-        yC = sc.nextInt();
+        yB = sc.nextDouble();
+        yC = sc.nextDouble();
 
-        
+        double p = (xA + xB + xC) / 2.0;
+        double areaX = Math.sqrt(p * (p - xA) * (p - xB) * (p - xC));
+        p = (yA + yB + yC) / 2.0;
+        double areaY = Math.sqrt(p * (p - yA) * (p - yB) * (p - yC));
+
+        System.out.printf("Área do triângulo X: %.4f%n", areaX);
+        System.out.printf("Área do triângulo Y: %.4f%n", areaY);
+
+        if (areaX > areaY) {
+            System.out.println("Maior área: X");
+        }
+        else {
+            System.out.println("Maior área: Y");
+        }
 
         sc.close();
     }
