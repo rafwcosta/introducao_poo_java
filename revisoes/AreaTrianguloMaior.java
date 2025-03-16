@@ -3,7 +3,7 @@ package revisoes;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Triangulo03;
+import entities.Triangulo01;
 
 public class AreaTrianguloMaior {
     public static void main(String[] args) {
@@ -11,9 +11,9 @@ public class AreaTrianguloMaior {
         Locale.setDefault(Locale.US);
 
         // Criação das variáveis X e Y do tipo Triangulo (objeto)
-        Triangulo03 x, y;
-        x = new Triangulo03();
-        y = new Triangulo03();
+        Triangulo01 x, y;
+        x = new Triangulo01();
+        y = new Triangulo01();
 
         // Entradas
         System.out.println("Digite os valores de x: ");
